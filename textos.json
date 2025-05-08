@@ -1,0 +1,26 @@
+[
+    {
+        "pregunta": "Los glóbulos rojos son células que hacen parte del tejido sanguíneo. Si a una muestra de sangre se agrega una solución salina muy concentrada (5%), los glóbulos rojos",
+        "a": "Estallarían debido a la absorción de agua, ya que el líquido circundante contiene menos sustancias disueltas que el líquido intracelular, por tanto el agua tiende a entrar a la célula para equilibrar se con el medio externo.",
+        "b": "estallaría debido a la absorción de agua, ya que el líquido circundante con tiene más sustancias disueltas que el líquido intracelular, por tanto el agua tiende a entrar a la célula para equilibrarse con el medio externo",
+        "c": "se deshidratarían debido a la eliminación de agua, porque el líquido circundante tiene más sustancias disueltas que el líquido intracelular por tanto el agua tiende a salir de la célula tratando de equilibrarse con el medio externo",
+        "d": "se deshidratarían debido a la eliminación de agua, porque el líquido circundante contiene menos sustancias disueltas que el líquido intracelular, por tanto el líquido tiende a salir de la célula para equilibrarse con el medio externo",
+        "respuesta":"c"
+    },
+    {
+        "pregunta": "En un organismo multicelular que se reproduce sexualmente; luego de la unión de las células sexuales que lo originan; las células no sexuales comienzan a reproducirse rápidamente hasta organizarse para conformar los sistemas que constituyen al organismo. El proceso para la formación de estas células no sexuales consiste en:",
+        "a":"la unión de dos células madres con igual cantidad de información genética",
+        "b":"la división de una célula madre que origina dos células hijas con igual cantidad de información genética",
+        "c":"la unión de una célula padre y una célula madre con la mitad de la información genética",
+        "d":"la división de una célula madre que origina dos células hijas con la mitad de la información genética",
+        "respuesta":"b"
+    },
+    {
+        "pregunta":"A la información genética almacenada en el ADN que se traduce en una secuencia de aminoácidos y posteriormente en proteínas, se le conoce como CÓDIGO GENÉTICO. Su presencia en todos los organismos permite afirmar que éstos probablemente",
+        "a":"tienen células con membranas internas",
+        "b":"comparten un antepasado común",
+        "c":"producen el mismo tipo de proteínas",
+        "d":"se reproducen sexualmente",
+        "respuesta":"c"
+    }
+]

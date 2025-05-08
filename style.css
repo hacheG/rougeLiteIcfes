@@ -1,0 +1,33 @@
+canvas, div, span{
+    border: 1px solid red;
+    display: block;
+}
+#canvas1,
+#canvas2,
+#canvas3{
+    width: 100%;;
+}
+#canvas1{
+    height: 10vh;
+}
+
+#canvas2{
+    height: 35vh;
+}
+
+#canvas3{
+    height: 20vh;
+}
+
+.nuevo-turno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ div{
+    width: 100%;
+    font-size: x-large;
+ }
+ body{
+    overflow-x: hidden;
+ }
