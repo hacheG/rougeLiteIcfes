@@ -55,9 +55,11 @@ function reviewAnswer(data){
         console.log(e.target.classList[0]);
         if (e.target.classList[0] === data[question].respuesta){
             console.log("correcto");
+            console.log("el target:",e.target);
+            e.target.style.backgroundColor = "green"
             question++;
             console.log("question: ",question);
-            quitQuestion();
+            //quitQuestion();
             
         } else {
             console.log("incorrecto");
