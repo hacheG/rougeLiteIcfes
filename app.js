@@ -12,6 +12,7 @@ const botonTurno = document.querySelector(".nuevo-turnoBtn");
 botonTurno.addEventListener("click", (e) => {
     console.log("my turn");
     searchQuestion();
+    question++
 });
 
 function searchQuestion(){
@@ -51,18 +52,25 @@ function putQuestion(data){
 
 // funcion para revisar la respuesta
 function reviewAnswer(data){
-    texto.addEventListener("click", (e) => {
+    texto.addEventListener("click", function listenAnswer(e){
         console.log(e.target.classList[0]);
         if (e.target.classList[0] === data[question].respuesta){
             console.log("correcto");
             console.log("el target:",e.target);
             e.target.style.backgroundColor = "green"
-            question++;
+            // question++;
             console.log("question: ",question);
-            //quitQuestion();
-            
+            setTimeout(() => {
+                e.target.style.backgroundColor = ""
+                quitQuestion();
+                texto.removeEventListener("click", listenAnswer)
+            }, 2000);
         } else {
             console.log("incorrecto");
+            e.target.style.backgroundColor = "red";
+            setTimeout(() => {
+                e.target.style.backgroundColor = ""
+            }, 1000);
         };
     });
 };
